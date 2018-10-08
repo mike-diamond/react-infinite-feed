@@ -1,6 +1,10 @@
 # react-infinite-feed
 Infinite feed with up or down scroll direction
 
+[![Npm Version](https://badge.fury.io/js/react-infinite-feed.svg)](https://www.npmjs.com/package/react-infinite-feed)
+[![Month Downloads](https://img.shields.io/npm/dm/react-infinite-feed.svg)](http://npm-stat.com/charts.html?package=react-infinite-feed)
+[![Npm Licence](https://img.shields.io/npm/l/react-infinite-feed.svg)](https://www.npmjs.com/package/react-infinite-feed)
+
 ### Usage
 This component helps to implement infinite scroll.
 It takes `loadOffset` property and when user scrolled to that point it handles `onReachOffset` function,
