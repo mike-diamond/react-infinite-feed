@@ -1,0 +1,42 @@
+{
+  "name": "react-infinite-feed",
+  "version": "1.0.0",
+  "description": "Infinite feed with up or down scroll direction",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "babel ./src --out-dir ./dist",
+    "minify": "minify ./dist/index.js -d .",
+    "build": "npm run transpile && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-diamond/react-infinite-feed.git"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "chat",
+    "feed",
+    "infinite",
+    "scroll"
+  ],
+  "author": "Mike Diamond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mike-diamond/react-infinite-feed/issues"
+  },
+  "homepage": "https://github.com/mike-diamond/react-infinite-feed#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-minify": "^0.5.0"
+  }
+}
