@@ -74,9 +74,7 @@ export default class Chat extends PureComponent {
             ? chatMessages.map(({ id, message, author }) => (
               <Message key={id} {...{ id, message, author }} />
             ))
-            : (
-              <Loader />
-            )
+            : <Loader />
         }
       </Feed>
     )
@@ -85,4 +83,4 @@ export default class Chat extends PureComponent {
 ```
 
 ### Examples
-Coming soon...
+[Scroll up feed demo](https://react-firebase-chat-11658.firebaseapp.com/)
