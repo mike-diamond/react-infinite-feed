@@ -84,4 +84,5 @@ export default class Chat extends PureComponent {
 
 ### Examples
 [Scroll up feed demo](https://react-firebase-chat-11658.firebaseapp.com/)
+
 [Boilerplate with this component](https://github.com/mike-diamond/react-firebase-ssr-boilerplate)
